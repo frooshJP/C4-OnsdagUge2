@@ -7,7 +7,7 @@ public class Italian implements Dialog {
     public String getLanguage() { return s; }
 
     @Override
-    public String quit() { return "premere 'Q' per uscire. Premere il pulsante opzionale per continuare"; }
+    public String quit() { return "premere 'Q' q per uscire. Premere il pulsante opzionale per continuare"; }
 
     @Override
     public String selectedLanguage() { return "la lingua selezionata è"; }
