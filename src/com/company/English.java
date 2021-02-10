@@ -10,7 +10,7 @@ public class English implements Dialog{
 
     @Override
     public String quit() {
-        return "press 'Q' for quit. Press any button to continue";
+        return "Press any button to continue, press 'Q' for quit. ";
     }
 
     @Override
